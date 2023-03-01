@@ -1,0 +1,46 @@
+
+.calc{
+    background-color: black;
+    margin: auto;
+    width: 10%;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+.Title{
+    -webkit-text-fill-color: azure;
+    text-align: center;
+}
+.operatorbutton{
+    background-color: coral;
+    
+}
+.numberbutton{
+    background-color: rgb(39, 38, 38);
+}
+.otherbutton{
+    background-color: rgb(117, 116, 116);
+}
+ #expand{
+    padding-right: 20px;
+    border-right: 20px;
+ }
+ #zero{
+    width: 115px;
+    border-radius: 25px;
+ }
+ button{
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+ }
+ #display{
+    grid-column: center;
+    grid-column: span 4;
+    width: 260px;
+    height: 70px;
+    font-size: 45px;
+    background-color: rgb(166, 216, 240);
+ }

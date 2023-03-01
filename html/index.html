@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <table class="calc">
+        <tr class="Title">
+            <td colspan="4">GAJI First CALC </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input id="display" disabled></input>
+            </td>
+        </tr>
+        <tr>
+            <td><button id="clearbutton" class="otherbutton" value="C">C</button></td>
+            <td><button class="otherbutton" value="+/-">+/-</button></td>
+            <td><button class="otherbutton" value="%">%</button></td>
+            <td><button class="operatorbutton" value="/">/</button></td>
+        </tr>
+        <tr>
+            <td><button class="numberbutton" value="7">7</button></td>
+            <td><button class="numberbutton"value="8">8</button></td>
+            <td><button class="numberbutton"value="9">9</button></td>
+            <td><button class="operatorbutton" value="*">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="numberbutton"value="4">4</button></td>
+            <td><button class="numberbutton"value="5">5</button></td>
+            <td><button class="numberbutton"value="6">6</button></td>
+            <td><button class="operatorbutton" value="-">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="numberbutton"value="1">1</button></td>
+            <td><button class="numberbutton"value="2">2</button></td>
+            <td><button class="numberbutton"value="3">3</button></td>
+            <td><button class="operatorbutton" value="+">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="zero" class="numberbutton"value="0">0</button></td>
+            <td><button class="numberbutton"value=".">.</button></td>
+            <td><button id="equalsbutton" class="operatorbutton" value="=">=</button></td>
+        </tr>
+    </table>
+    <script src="../css/jquery/calc.js"></script>
+</body>
+</html>
